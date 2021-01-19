@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<head>
+		<title>Everestwings</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300i,400,700&display=swap" rel="stylesheet">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/slick.css">
+		<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+		<link href="css/lsb.css" rel="stylesheet">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/custom.js"></script>
+		<script src="js/lsb.min.js"></script>
+	</head>
+</head>
+<body class="home">
+	<div class="site-content">
+		<header>
+			<div class="top-slider">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div id="demo" class="carousel carousel-fade" data-ride="carousel" data-interval="3000">
+								<div class="carousel-inner">
+									<a href="#" class="closebtn">&times;</a>
+									<div class="carousel-item active">
+										<p>First Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+									</div>
+									<div class="carousel-item">
+										<p>Second Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+									</div>
+									<div class="carousel-item">
+										<p>Third Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="top-header">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-sm-5 col-12">
+							<div class="top-left">
+								<ul class="top-left-content">
+									<li>Our Story</li>
+									<li class="top-sociallinks">
+										<a href="#"><i class="fab fa-facebook-square"></i></a>
+										<a href="#"><i class="fab fa-twitter"></i></a>
+										<a href="#"><i class="fab fa-instagram"></i></a>
+									</li>
+									<li class="expand-search">
+										<form>
+											<input type="search" placeholder="Search">
+										</form>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-7 col-12">
+							<div class="top-right">
+								<ul class="top-right-content">
+									<li>
+										<div class="dropdown ">
+											<img src="https://source.unsplash.com/QAB-WJcbgJk/60x60" class="admin-img">
+											<a class=" dropdown-toggle" id="menu1" data-toggle="dropdown">My Account
+												<span class="caret"></span></a>
+												<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+													<li><a role="menuitem" tabindex="-1" href="./account-login.html">Login</a></li>
+													<li><a role="menuitem" tabindex="-1" href="./register-page.php">Register</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="cart"><a href="#"><img src="images/shopping_bag.svg"></a></li>
+										<li class="flag">
+											<a href="#"><img src="images/Animated-Flag-Nepal.gif"></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- mobile menu -->
+				
+					<div class="mobile-main-menu">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-5 col-12">
+								<div class="mob-logo">
+									<a href="#">
+										<img src="images/logo.svg" class="img-fluid">
+									</a>
+								</div>
+							</div>
+							<div class="col-sm-5 col-8">
+								<div class="mobile-form">
+									<form class="form-slide">
+									  <input class="form-control" type="text" placeholder="Search"
+									    aria-label="Search">
+									    <button>Search</button>
+									</form>
+								</div>
+							</div>
+							<div class="col-sm-2 col-4">
+								<a id="mobile-trigger" href="#mob-menu"><i class="fa fa-list" aria-hidden="true"></i><span class="trigger-title"></span> Menu</a>
+								<div class="mob-menu">
+									<div id="mySidenav" class="sidenav">
+										<div class="mob-logo">
+											<a href="#">
+												<img src="images/logo.svg" class="img-fluid">
+											</a>
+										</div>
+										<i class="fas fa-times cancel"></i>
+										<ul class="mobile-menu-list">
+											<li><a href="index.html" class="active">Home</a></li>
+											 <li class="has-sub-menu">
+											    <a href="#"><span>Categories</span></a>
+											    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"><i class="fas fa-chevron-down sub-menu-icon"></i></a>
+											    <ul class="collapse list-unstyled" id="pageSubmenu">
+											        <li>
+											            <a href="#">Category 1</a>
+											        </li>
+											        <li>
+											            <a href="#">Category 2</a>
+											        </li>
+											        <li>
+											            <a href="#"> Category 3</a>
+											            <a href="#newpageSubmenu" data-toggle="collapse" aria-expanded="false"><i class="fas fa-chevron-down sub-menu-icon"></i></a>
+											            <ul class="collapse list-unstyled" id="newpageSubmenu">
+											                <li>
+											                    <a href="#">Category A</a>
+											                </li>
+											                <li>
+											                    <a href="#">Category B</a>
+											                </li>
+											            </ul>
+											        </li>
+											    </ul>
+											</li>
+											<li class="has-sub-menu">
+												<a href="#"><span>Blog</span></a>
+												<a href="#blogSubmenu" data-toggle="collapse" aria-expanded="false"><i class="fas fa-chevron-down sub-menu-icon"></i></a>
+												<ul class="collapse list-unstyled" id="blogSubmenu">
+												    <li>
+												        <a href="#">Page 1</a>
+												    </li>
+												    <li>
+												        <a href="#">Page 2</a>
+												    </li>
+												</ul>
+											</li>
+											<li><a href="judge.html">Portfolio</a></li>
+											<li><a href="#">Shop</a></li>
+											<li><a href="#">Contact</a></li>
+										</ul>
+										<form>
+										  <input type="text" placeholder="Search"
+										    aria-label="Search">
+										  <button><i class="fas fa-search" aria-hidden="true"></i></button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</div>
+					<!-- mobile menu close -->
+				<!-- mobile menu close -->
+				<div class="main-menu">
+					<div class="container">
+						<nav class="navbar navbar-expand-lg navbar-light">
+							<a class="navbar-brand" href="#"><img src="images/logo.svg"></a>
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav ml-auto">
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Hemp Products
+										</a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+											<a class="dropdown-item" href="#">Sub-Product 1</a>
+											<a class="dropdown-item" href="#">Sub-Product 2</a>
+										</div>
+									</li>
+									<li class="nav-item active">
+										<a class="nav-link" href="#">Wooden Products</a>
+									</li>
+									<li class="nav-item active">
+										<a class="nav-link" href="#">Singing Bowls</a>
+									</li>
+									<li class="nav-item active">
+										<a class="nav-link" href="#">Nepalese Gift Items</a>
+									</li>
+									<li class="nav-item active">
+										<a class="nav-link" href="#">Exotic Items</a>
+									</li>
+									<li class="nav-item active">
+										<a class="nav-link" href="#">Beads and Bracelets</a>
+									</li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div>
+				<div class="secondary-menu">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="products-search">
+									<a class="navbar-brand" href="#"><img src="images/ew.png"></a>
+									<form class="form-inline my-2 my-lg-0">
+										<!-- <input class="form-control mr-sm-2 placeicon" type="search" placeholder="&#xf002; search for products and more" aria-label="Search"> -->
+										<input class="form-control mr-sm-2 placeicon" type="search" placeholder="Search for products and more" aria-label="Search">
+										<a href="#" class="search-icon"><i class="fa fa-search"></i></a>
+									</form>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<nav class="navbar navbar-expand-lg">
+									<ul class="navbar-nav ml-auto mobile-menu">
+										<span class="close">*</span>
+										<!-- <i class="fa fa-times close" aria-hidden="true"></i> -->
+										<li class="nav-item active">
+											<a class="nav-link" href="#">Home</a>
+										</li>
+										<li class="nav-item dropdown">
+											<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												Shop Now
+											</a>
+											<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+												<a class="dropdown-item" href="#">Action</a>
+												<a class="dropdown-item" href="#">Another action</a>
+											</div>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#">Sale</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#">Contact Us</a>
+										</li>
+									</ul>
+								</nav>
+								<span class="btn btn-default" id="menu-toggle">Menu</span>
+							</div>
+						</div>
+					</div>
+				</div>
+		</header>
+			<div class="banner">
+				<div class="container">
+					<section class="banner-content">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="banner-slider">
+									<div class="slide-item"><img src="images/th1.jpg" class="img-fluid">
+										<div class="row">
+											<div class="col-md-6 col-12">
+												<div class="slider-text">
+													<h1>Hemp <br> Backpacks</h1>
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+												</div>
+											</div>
+											<div class="col-md-6"></div>
+										</div>
+									</div>
+									<div class="slide-item"><img src="images/th2.jpg" class="img-fluid">
+										<div class="row">
+											<div class="col-md-6 col-12">
+												<div class="slider-text">
+													<h1>Hemp 2 <br> Backpacks </h1>
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+												</div>
+											</div>
+											<div class="col-md-6"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+			<div class="features">
+				<div class="container">
+					<section class="features-content">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="all-features">
+									<ul>
+										<li><img src="images/fair trade.png"> Fair Trade</li>
+										<li><img src="images/fair trade.png"> Echo Friendly</li>
+										<li><img src="images/fair trade.png"> Ethically Resourced</li>
+										<li><img src="images/fair trade.png"> Handmade</li>
+										<li><img src="images/fair trade.png"> Safe and Secure Payment</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+			<div class="major-products">
+				<div class="container">
+					<section class="major-products-content">
+						<div class="row">
+							<div class="col-md-3 col-sm-6 col-12">
+								<div class="major-product">
+									<div class="thumbnail"> <a href=""><img src="images/bag.png" class="img-fluid"></a></div>
+									<div class="see-all">
+										<p>Hemp Products</p> <a href="#">See All</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-12">
+								<div class="major-product">
+									<div class="thumbnail"> <a href=""><img src="images/bag.png" class="img-fluid"></a></div>
+									<div class="see-all">
+										<p>Hemp Products</p> <a href="#">See All</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-12">
+								<div class="major-product">
+									<div class="thumbnail"> <a href=""><img src="images/bag.png" class="img-fluid"></a></div>
+									<div class="see-all">
+										<p>Hemp Products</p> <a href="#">See All</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-12">
+								<div class="major-product">
+									<div class="thumbnail"> <a href=""><img src="images/bag.png" class="img-fluid"></a></div>
+									<div class="see-all">
+										<p>Hemp Products</p> <a href="#">See All</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+			<div class="popular-products">
+				<div class="container">
+					<section class="popular-products-content">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="product-view-all">
+									<h2>Popular Products</h2>
+									<a class="view-all" href="#">View all</a>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-12">
+								<div class="major-product">
+									<div class="thumbnail"> <a href=""><img src="images/bag.png" class="img-fluid"></a></div>
+									<div class="product-name">
+										<p>Leather Strapped Hemp Backpack Lhb18</p>
+										<p class="price">$54.99</p>
+										<div class="add-to-cart">
+											<a class="add-cart" href="">Add to cart</a>
+											<a href=""><img src="images/eye-open.svg"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-12">
+								<div class="major-product">
+									<div class="thumbnail"> <a href=""><img src="images/bag.png" class="img-fluid"></a></div>
+									<div class="product-name">
+										<p>Leather Strapped Hemp Backpack Lhb18</p>
+										<p class="price">$54.99</p>
+										<div class="add-to-cart">
+											<a class="add-cart" href="">Add to cart</a>
+											<a href=""><img src="images/eye-open.svg"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-12">
+								<div class="major-product">
+									<div class="thumbnail"> <a href=""><img src="images/bag.png" class="img-fluid"></a></div>
+									<div class="product-name">
+										<p>Leather Strapped Hemp Backpack Lhb18</p>
+										<p class="price">$54.99</p>
+										<div class="add-to-cart">
+											<a class="add-cart" href="">Add to cart</a>
+											<a href=""><img src="images/eye-open.svg"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-12">
+								<div class="major-product">
+									<div class="thumbnail"> <a href=""><img src="images/bag.png" class="img-fluid"></a></div>
+									<div class="product-name">
+										<p>Leather Strapped Hemp Backpack Lhb18</p>
+										<p class="price">$54.99</p>
+										<div class="add-to-cart">
+											<a class="add-cart" href="">Add to cart</a>
+											<a href=""><img src="images/eye-open.svg"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+			<div class="product-tab">
+				<div class="container">
+					<section class="product-tab-content">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="product-view-all">
+									<ul class="nav nav-tabs" id="myTab" role="tablist">
+										<li class="nav-item">
+											<a class="nav-link active" id="sale-tab" data-toggle="tab" href="#sale" role="tab" aria-controls="sale"
+											aria-selected="true">Sale</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" id="seasonal-tab" data-toggle="tab" href="#seasonal" role="tab" aria-controls="seasonal"
+											aria-selected="false">Seasonal</a>
+										</li>
+									</ul>
+									<a class="view-all" href="#">View all</a>
+								</div>
+								<div class="tab-content" id="myTabContent">
+									<div class="tab-pane fade show active" id="sale" role="tabpanel" aria-labelledby="sale-tab">
+										<div class="row">
+											<div class="col-md-3">
+												<div class="major-product">
+													<div class="thumbnail"> <a href=""><img src="images/bag.png" class="img-fluid"></a></div>
+													<div class="product-name">
+														<p>Leather Strapped Hemp Backpack Lhb18</p>
+														<p class="price">$54.99</p>
+														<div class="add-to-cart">
+															<a class="add-cart" href="">Add to cart</a>
+															<a href=""><img src="images/eye-open.svg"></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-3">
+												<div class="major-product">
+													<div class="thumbnail"> <a href=""><img src="images/bag.png" class="img-fluid"></a></div>
+													<div class="product-name">
+														<p>Leather Strapped Hemp Backpack Lhb18</p>
+														<p class="price">$54.99</p>
+														<div class="add-to-cart">
+															<a class="add-cart" href="">Add to cart</a>
+															<a href=""><img src="images/eye-open.svg"></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-3">
+												<div class="major-product">
+													<div class="thumbnail"> <a href=""><img src="images/bag.png" class="img-fluid"></a></div>
+													<div class="product-name">
+														<p>Leather Strapped Hemp Backpack Lhb18</p>
+														<p class="price">$54.99</p>
+														<div class="add-to-cart">
+															<a class="add-cart" href="">Add to cart</a>
+															<a href=""><img src="images/eye-open.svg"></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-3">
+												<div class="major-product">
+													<div class="thumbnail"> <a href=""><img src="images/bag.png" class="img-fluid"></a></div>
+													<div class="product-name">
+														<p>Leather Strapped Hemp Backpack Lhb18</p>
+														<p class="price">$54.99</p>
+														<div class="add-to-cart">
+															<a class="add-cart" href="">Add to cart</a>
+															<a href=""><img src="images/eye-open.svg"></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id="seasonal" role="tabpanel" aria-labelledby="seasonal-tab">
+										<div class="row">
+											<div class="col-md-3">
+												<div class="major-product">
+													<div class="thumbnail"> <a href=""><img src="images/bag.png" class="img-fluid"></a></div>
+													<div class="product-name">
+														<p>Leather Strapped Hemp Backpack Lhb18</p>
+														<p class="price">$69.99</p>
+														<div class="add-to-cart">
+															<a class="add-cart" href="">Add to cart</a>
+															<a href=""><img src="images/eye-open.svg"></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-3">
+												<div class="major-product">
+													<div class="thumbnail"> <a href=""><img src="images/bag.png" class="img-fluid"></a></div>
+													<div class="product-name">
+														<p>Leather Strapped Hemp Backpack Lhb18</p>
+														<p class="price">$69.99</p>
+														<div class="add-to-cart">
+															<a class="add-cart" href="">Add to cart</a>
+															<a href=""><img src="images/eye-open.svg"></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-3">
+												<div class="major-product">
+													<div class="thumbnail"> <a href=""><img src="images/bag.png" class="img-fluid"></a></div>
+													<div class="product-name">
+														<p>Leather Strapped Hemp Backpack Lhb18</p>
+														<p class="price">$69.99</p>
+														<div class="add-to-cart">
+															<a class="add-cart" href="">Add to cart</a>
+															<a href=""><img src="images/eye-open.svg"></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-3">
+												<div class="major-product">
+													<div class="thumbnail"> <a href=""><img src="images/bag.png" class="img-fluid"></a></div>
+													<div class="product-name">
+														<p>Leather Strapped Hemp Backpack Lhb18</p>
+														<p class="price">$69.99</p>
+														<div class="add-to-cart">
+															<a class="add-cart" href="">Add to cart</a>
+															<a href=""><img src="images/eye-open.svg"></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="container">
+					<section class="footer-content">
+						<div class="row row-list">
+							<div class="col-md-2">
+								<div class="footer-content">
+									<h3>Company</h3>
+									<ul class="footer-list">
+										<li><a href="">About Us</a></li>
+										<li><a href="">Social Involvement</a></li>
+										<li><a href="">Production Process</a></li>
+										<li><a href="">Contact Us</a></li>
+										<li><a href="">Wholesale</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-2">
+								<div class="footer-content">
+									<h3>Policies</h3>
+									<ul class="footer-list">
+										<li><a href="">Terms and Conditions</a></li>
+										<li><a href="">Return Policy</a></li>
+										<li><a href="">Privacy Policy</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-2">
+								<div class="footer-content">
+									<h3>Quick Links</h3>
+									<ul class="footer-list">
+										<li><a href="">Home</a></li>
+										<li><a href="">Cataogue</a></li>
+										<li><a href="">Gallery</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="footer-content">
+									<h3>Locations</h3>
+									<p>2A Bottonwood st #1 Bostan MA 02125 Simal Mall, Orlando FL</p>
+									<P>Chapali 04, Budhanilkantha KTM Nepal</P>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="footer-content">
+									<h3>Get Connected</h3>
+									<div class="footer-icons">
+										<a href="#"><i class="fab fa-facebook-square"></i></a>
+										<a href="#"><i class="fab fa-twitter"></i></a>
+										<a href="#"><i class="fab fa-instagram"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row copyright-footer">
+							<div class="col-md-4">
+								<div class="payment">
+									<ul class="payment-icon">
+										<li><img src="images/Image 1.png"></li>
+										<li><img src="images/paypal-logo-png-3.png"></li>
+										<li><img src="images/unnamed.png"></li>
+										<li><img src="images/bitcoin.png"></li>
+										<li><img src="images/visa.png"></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-8">
+								<div class="copyright-text">
+									<p>Copyright &#169; 2019. Everest Wings. All Right Reserved</p>
+								</div>
+							</div>
+						</div>
+					</section>
+					<div id="btn-scrollup">
+						<a  title="Go Top"  class="scrollup button-circle" href="#"><i class="fas fa-angle-up"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+	</html>
