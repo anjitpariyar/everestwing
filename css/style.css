@@ -61,9 +61,9 @@ body {
   color: #757574;
   font-family: "Roboto", sans-serif;
 }
-a {
+/* a {
   color: #565656;
-}
+} */
 a:hover {
   color: #1261a0;
 }
@@ -111,6 +111,7 @@ section {
 }
 body {
   background-color: #f5f5f5;
+  color: #212121;
 }
 /* all normal done 
 
@@ -176,6 +177,7 @@ body {
 }
 .top-left-content .top-sociallinks a {
   font-size: 24px;
+  color: currentColor;
 }
 
 .expand-search {
@@ -580,6 +582,37 @@ body {
 
  */
 
+/*category-products*/
+.category-product {
+  box-shadow: 0 0 3px #efefef;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.category-thumbnail {
+  position: relative;
+  overflow: hidden;
+}
+.category-thumbnail img {
+  transition: all 0.8s;
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
+.category-product:hover img {
+  transition: all 0.8s;
+  transform: scale(1.1);
+}
+.hemp-products {
+  margin-top: 90px;
+}
+
+/* category ended
+
+
+
+*/
+
 /*
 .features{
 margin:25px 0;
@@ -766,6 +799,10 @@ margin:25px 0;
   }
 }
 
+/* footer started
+
+*/
+
 .footer {
   background-color: #f9f9f9;
   margin-bottom: 0;
@@ -789,10 +826,15 @@ margin:25px 0;
 .footer-content a,
 .copyright-text p {
   font-size: 15px;
+  color: currentColor;
 }
 .footer-content .fab {
   font-size: 25px;
 }
+.footer-content i {
+  color: #757575;
+}
+
 .copyright-footer {
   align-items: center;
 }
@@ -816,13 +858,18 @@ margin:25px 0;
 }
 .footer-content h3 {
   margin: 35px 0;
+  color: #616161;
 }
 .footer-content h3:before {
   content: "";
-  border-bottom: 1px solid #43ab48;
+  border-bottom: 1px solid #48aa4d;
   width: 100px;
   height: 40px;
   position: absolute;
+}
+.footer-content .row-list {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 .btn-default,
 .close {
@@ -870,27 +917,15 @@ margin:25px 0;
   object-fit: contain;
 }
 
-/*category-products*/
-.category-product {
-  box-shadow: 0 0 3px #efefef;
-}
-.category-thumbnail {
-  position: relative;
-  overflow: hidden;
-}
-.category-thumbnail a img {
-  transition: all 0.8s;
-  display: block;
-  margin: 0 auto;
-}
-.category-thumbnail a:hover img {
-  transition: all 0.8s;
-  transform: scale(1.1);
-}
 .product-type {
-  text-align: center;
+  /* text-align: center; */
   background-color: #fafafa;
-  padding: 10px 0;
+  padding: 10px 10px 20px 20px;
+}
+.product-type p {
+  margin-bottom: 0;
+  color: #212121;
+  font-size: 18px;
 }
 .product-type h3 {
   font-weight: 400;
