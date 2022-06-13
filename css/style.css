@@ -425,6 +425,13 @@ body {
   color: #fff;
 }
 
+.wooden-products .product-type p,
+.beads-bracelets-content .category-product p {
+  color: #757575;
+  font-size: 15px;
+  min-height: 42px;
+}
+
 /* top header done */
 
 /* edited on may 3 */
@@ -656,19 +663,22 @@ margin:25px 0;
   font-size: 14px;
 }
 .product-name {
-  padding: 10px 20px 20px 10px;
+  padding: 10px 0;
   background-color: #fff;
+}
+.product-name a {
+  color: currentColor;
 }
 .product-name p {
   font-weight: 600;
   margin-bottom: 10px;
-  text-align: center;
+  /* text-align: center; */
 }
 .product-name .price {
   font-size: 20px;
-  text-align: center;
-  font-weight: 500;
-  color: #1261a0;
+  /* text-align: center; */
+  font-weight: 300;
+  color: #da1a40;
 }
 .product-view-all .view-all {
   font-weight: 600;
@@ -686,20 +696,30 @@ margin:25px 0;
 .add-to-cart a:first-child {
   color: #888;
   font-weight: 500;
-  border: 1px solid #dee2e6;
+  border: 1px solid #19629e;
   border-radius: 30px;
   padding: 10px 20px;
+  width: 160px;
+  text-align: center;
+  color: #19629e;
+  font-weight: 600;
+}
+.add-to-cart a:last-child img {
+  height: 16px;
+  width: 25px;
+  margin: auto;
 }
 .add-to-cart a:first-child:hover {
-  color: #1261a0;
+  /* color: #1261a0; */
 }
 .add-to-cart a:last-child {
   padding: 10px 10px;
+  flex-grow: 2;
+  text-align: center;
 }
 .add-to-cart {
-  max-width: 175px;
-  margin: 0 auto;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 100%;
 }
 .product-view-all .nav-link {
   font-size: 25px;
@@ -728,11 +748,16 @@ margin:25px 0;
     border-radius: 5px; */
   box-shadow: 0 0 5px #ddd;
   position: relative;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
 }
 .thumbnail {
-  text-align: center;
-  padding: 5px;
+  /* text-align: center; */
+  /* padding: 5px; */
   position: relative;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
 }
 .thumbnail a {
   display: block;
@@ -878,13 +903,14 @@ margin:25px 0;
 .footer .form-inline {
   position: relative;
   height: 50px;
-  background-color: rgba(255, 255, 255, 0.3);
-  border: 1px solid #ddd;
+  border: 1px solid #eee;
   padding: 3px;
   border-radius: 3px;
   margin-top: 25px;
   flex-wrap: nowrap;
   align-items: center;
+  background-color: #e2e2e2;
+  border-radius: 34px;
 }
 .footer .form-inline .form-group {
   flex-grow: 2;
@@ -896,10 +922,12 @@ margin:25px 0;
   width: 100%;
   border: 0;
   background-color: transparent !important;
+  padding-left: 20px;
 }
 .footer .form-inline button {
-  border-radius: 3px;
+  border-radius: 20px;
   padding: 9px 1em;
+  width: 120px;
 }
 .footer .row-list {
   position: relative;
@@ -932,6 +960,9 @@ margin:25px 0;
   color: #000;
   margin: 5px 0;
 }
+.product-type h3 a {
+  color: currentColor;
+}
 .top-selling h2,
 .testimonial-heading h2 {
   text-align: center;
@@ -960,9 +991,10 @@ margin:25px 0;
   text-align: center;
   box-shadow: 0 0 5px #ddd;
   margin: 20px 0;
+  background-color: #fff;
 }
 .testimonial-content p:before {
-  content: "\f10d";
+  /* content: "\f10d"; */
   font-family: Fontawesome;
   float: left;
   margin-right: 10px;
@@ -1584,7 +1616,7 @@ ul.social-network li {
     padding: 10px 7px;
   }
   .product-name {
-    padding: 10px;
+    /* padding: 10px; */
   }
   .singel-product-detail {
     width: auto;
@@ -1744,12 +1776,16 @@ ul.social-network li {
 .popular-products .item {
   padding: 6px 12px;
 }
+.slick-next,
+.slick-prev {
+  border-radius: 10px;
+}
 .popular-slider .slick-next,
 .testimonial .slick-next {
-  right: 10px;
-  background-color: #fff;
+  right: -10px;
+  background-color: #9e9e9e;
   font-size: 1.5em;
-  color: #83a054;
+  color: #fff;
   line-height: 50px;
   height: 50px;
   width: 50px;
@@ -1757,10 +1793,10 @@ ul.social-network li {
 }
 .popular-slider .slick-prev,
 .testimonial .slick-prev {
-  left: 10px;
-  background-color: #fff;
+  left: -10px;
+  background-color: #9e9e9e;
   font-size: 1.5em;
-  color: #83a054;
+  color: #fff;
   line-height: 50px;
   height: 50px;
   width: 50px;
@@ -1859,6 +1895,7 @@ ul.social-network li {
 
 .slide .popular-products-content {
   padding-bottom: 0px;
+  margin: 0 -12px;
 }
 
 .product-tab .product-tab-content .view-all {
@@ -2460,6 +2497,7 @@ li.sale sup {
   .wooden-products-content {
     padding: 0;
   }
+
   h2 {
     font-size: 18px;
     margin-bottom: 4px;
@@ -2693,14 +2731,16 @@ button.disabled {
 }
 
 .product-name p:first-child {
-  color: #1261a0;
-  height: 33px;
+  /* color: #1261a0; */
+  /* height: 33px; */
   overflow: visible;
+  font-weight: 300;
+  font-size: 16px;
 }
 .product-name p:first-child a {
   display: -webkit-box;
   text-overflow: ellipsis;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -2776,7 +2816,7 @@ button.disabled {
 }
 .beads-bracelets .category-thumbnail,
 .wooden-products-content .category-thumbnail {
-  height: auto;
+  height: 480px;
 }
 .category-thumbnail a img {
   height: 100%;
