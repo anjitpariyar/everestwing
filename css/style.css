@@ -1621,15 +1621,19 @@ ul.social-network li {
   .singel-product-detail {
     width: auto;
   }
+  .expand-search .input-wrapper {
+    width: 270px;
+  }
 }
 @media (max-width: 767px) {
   .top-left,
   .top-right {
     text-align: center;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
   }
   .top-left-content li:first-child {
     padding-left: 0;
+    display: none;
   }
   .top-right-content li a {
     padding-top: 0px;
@@ -1646,6 +1650,9 @@ ul.social-network li {
   }
   h1 {
     font-size: 30px;
+  }
+  .top-header .col-md-6.col-5 {
+    margin-bottom: 0;
   }
 
   .col-md-3,
@@ -1685,6 +1692,23 @@ ul.social-network li {
       } */
   .cart-item-name {
     text-align: center;
+  }
+
+  .expand-search .input-wrapper {
+    width: 100%;
+  }
+  .expand-search .input-wrapper svg {
+    display: none;
+  }
+  .expand-search input[type="search"] {
+    padding-left: 15px;
+    height: 40px;
+    font-size: 15px;
+  }
+  .expand-search {
+    padding-left: 0px;
+    margin-left: 0px;
+    border: none;
   }
 }
 @media (max-width: 600px) {
@@ -2249,7 +2273,7 @@ li.sale sup {
 
 @media (max-width: 1010px) {
   .expand-search {
-    display: none;
+    /* display: none; */
   }
   .thumbnail a {
     height: 210px;
@@ -2325,9 +2349,11 @@ li.sale sup {
 }
 
 @media (max-width: 575.5px) {
-  section,
-  .banner-content {
+  section {
     padding: 10px 0;
+  }
+  .banner-content {
+    padding: 0;
   }
   .mobile-main-menu .col-sm-7.col-12 {
     order: 3;
@@ -2352,7 +2378,7 @@ li.sale sup {
   .top-right {
     text-align: right;
     margin-bottom: 0px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
   }
   .banner-slider .slick-next,
   .banner-slider .slick-prev {
@@ -2464,6 +2490,29 @@ li.sale sup {
   .net-total div {
     margin-bottom: 8px;
     font-weight: normal;
+  }
+  .top-right .cart .dropdown .dropdown-toggle svg {
+    height: 17px;
+  }
+  .top-right-content li a {
+    padding: 6px;
+  }
+  .top-right-content li.cart:nth-child(2) .dropdown-toggle {
+    padding-right: 10px;
+  }
+  .cart a span {
+    font-size: 10px;
+    height: 14px;
+    width: 14px;
+    top: 17px;
+    right: 4px;
+  }
+  .hemp-products {
+    margin-top: 20px;
+  }
+  .shipping--info p {
+    font-size: 12px;
+    font-weight: 400;
   }
 }
 
@@ -2787,6 +2836,9 @@ button.disabled {
   .login-page .card-title {
     font-size: 22px;
   }
+  .slide .popular-products-content {
+    margin: 0px;
+  }
 }
 @media (max-width: 437.5px) {
   .login-page form {
@@ -2816,7 +2868,8 @@ button.disabled {
 }
 .beads-bracelets .category-thumbnail,
 .wooden-products-content .category-thumbnail {
-  height: 480px;
+  /* height: 480px; */
+  height: 290px;
 }
 .category-thumbnail a img {
   height: 100%;
